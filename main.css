@@ -1,0 +1,25 @@
+span {
+    margin-left: 20px;
+    word-spacing: 20px;
+}
+table {
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.as {
+    font-weight: bold;
+    text-align: left;
+}
+.ad {
+    background-color: darkgray;
+}
+.az {
+    font-weight: bold
+}

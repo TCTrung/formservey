@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+</head>
+<body>
+<form action="surveykh.html" method="get">
+    <h3>Market Research Survey</h3>
+    Please take a few moments to complete this satisfaction survey.
+    <p class="az">What is your age range?</p>
+    <select style="width: 200px">
+        <option>18-24</option>
+        <option>25-34</option>
+        <option>35-50</option>
+        <option>50+</option>
+    </select>
+    <p class="az">What is your yearly income range?</p>
+    <select style="width: 200px">
+        <option>$0-$25,000</option>
+        <option>$25,001-$50,000</option>
+        <option>$50,001-$100,000</option>
+        <option>$100,000+</option>
+    </select>
+    <p class="az"> Gender Identity</p>
+
+    <input type="radio" name="gender" checked>Male <br>
+    <input type="radio" name="gender" checked>Female <br>
+    <input type="radio" name="gender" checked>Nonbinary <br>
+    <input type="radio" name="gender" checked>Other
+    <p class="az">Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+
+    <input type="checkbox" name="product" value="product1">Product 1 <br>
+    <input type="checkbox" name="product" value="product2">Product 2 <br>
+    <input type="checkbox" name="product" value="product3">Product 3
+    <p class="az"> How often would you use our new product?</p>
+    <input type="radio" name="time" checked>Daily <br>
+    <input type="radio" name="time" checked>Weekly <br>
+    <input type="radio" name="time" checked>Monthly
+    <p class="az"> What would you pay for the new product?</p>
+    $<input type="number" name="money" style="width: 55px;">. <input type="number" name="cents" style="width: 25px;"><br>
+    <span><sup>Dollar Cents</sup></span>
+    <p class="az">What features would you like to see in the new product.</p>
+    <textarea cols="100" rows="10"></textarea>
+    <p class="az">Please rate your level of agreement with the following statements.</p>
+    <table>
+        <tr class="ad"><td></td>
+            <td>Strongly Disagree</td>
+            <td>Disagree</td>
+            <td>Agree</td>
+            <td>Strongly Agree</td>
+        </tr>
+        <tr>
+            <td class="as">Our products are priced fairly.</td>
+            <td><input type="radio" name="ab"><br>1</td>
+            <td><input type="radio" name="ab"><br>2</td>
+            <td><input type="radio" name="ab"><br>3</td>
+            <td><input type="radio" name="ab"><br>4</td>
+        </tr>
+        <tr class="ad">
+            <td class="as">Our products are high quality.</td>
+            <td><input type="radio" name="abc"><br>1</td>
+            <td><input type="radio" name="abc"><br>2</td>
+            <td><input type="radio" name="abc"><br>3</td>
+            <td><input type="radio" name="abc"><br>4</td>
+        </tr>
+        <tr>
+            <td class="as">You would recommend our product to a friend or coworker.</td>
+            <td><input type="radio" name="abcd"><br>1</td>
+            <td><input type="radio" name="abcd"><br>2</td>
+            <td><input type="radio" name="abcd"><br>3</td>
+            <td><input type="radio" name="abcd"><br>4</td>
+        </tr>
+
+    </table>
+    <br> <input type="submit" name="submit" value="submit">
+</form>
+</body>
+</html>
